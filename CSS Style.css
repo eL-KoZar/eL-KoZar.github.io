@@ -1,0 +1,220 @@
+@import url('https: //fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body
+{
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #363131;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.container .left-side
+{
+	position: relative;
+	background: #1D1F1D;
+	padding: 40px;
+	border-radius: 30px;
+	left: 25px;
+}
+.textProfile
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.textProfile .imgBx
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.textProfile .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.textProfile h2
+{
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+.textProfile h2 span{
+	font-size: 0.7em;
+	font-weight: 300;
+	color: grey;
+}
+.contactInfo
+{
+	padding-top: 40px;
+}
+.title
+{
+	color: #fff;
+	text-transform: :uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.contactInfo ul
+{
+	position: relative;
+}
+.contactInfo ul li
+{
+	position: relative;
+	list-style: disc;
+	margin: 10px 0;
+	cursor: pointer;
+	color: grey;
+}
+.contactInfo ul li .icon
+{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #5CDB6D;
+}
+.contactInfo.education
+{
+	margin-bottom: 15px;
+}
+.contactInfo.education h5
+{
+	color: #5CDB6D;
+	font-weight: 500;
+}
+.contactInfo.education h4
+{
+	color: grey;
+	font-weight: 500;
+}
+.container .right-side
+{
+	position: relative;
+	background: #363131;
+	padding: 40px;
+	border-radius: 30px;
+	left: 25px;
+}
+.aboutMe
+{
+	margin-bottom: 50px;
+}
+.aboutMe:last-child
+{
+	margin-bottom: 0;
+}
+.title2
+{
+	color: #5CDB6D;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+p
+{
+	color: silver;
+}
+.box
+{
+	display: flex;
+	padding: 10px;
+}
+.box img{
+	max-width: 100%;
+	height: 200px;
+	transition: transform .2s;
+}
+.box img:hover
+{
+	transform: scale(1.5);
+}
+.box div
+{
+	margin: 5px;
+}
+.skills .box 
+{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.skills .box h4
+{
+	text-transform: uppercase;
+	color: silver;
+	font-weight: 500;
+}
+.skills .box .percentage
+{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: grey;
+	border-radius: 5px;
+}
+.skills .box .percentage div
+{
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	height: 100%;
+	background: #5CDB6D;
+	border-radius: 5px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    color: #5CDB6D;
+    background:rgb(10, 10, 10);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background: grey;
+    transition: 0.2s;
+}
