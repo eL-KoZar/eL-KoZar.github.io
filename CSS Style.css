@@ -59,7 +59,7 @@ img{
 .textProfile .imgBx img
 {
 	position: absolute;
-	top: 0;
+	top: ;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -217,4 +217,25 @@ p
 .btn:hover{
     background: grey;
     transition: 0.2s;
+}
+.positions{
+	position: relative;
+	display: flex;
+	margin: 0px;
+	
+}
+.boxes{
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-left: 4px;
+	margin-bottom: 10px;
+	 width: 150px;
+    height: 40px;
+    color: slategrey;
+    background:#1D1F1D;
+    outline: none;
+    border: none;
+    /*transition: 0.2s;*/
+    margin-left: 20px;
+    border-radius: 20px;
 }
